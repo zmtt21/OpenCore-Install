@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+---
+home: true
+heroImage: /dortania-logo-clear.png
+heroText: Dortania's OpenCore Install Guide
+actionText: Getting Started→
+actionLink: prerequisites.md
 
-You can use the [editor on GitHub](https://github.com/zmtt21/OpenCore-Install/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+meta:
+- name: description
+  content: Current supported version 0.7.5
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# What is OpenCore and who is this guide for
 
-### Markdown
+OpenCore is what we refer to as a "boot loader" – it is a complex piece of software that we use to prepare our systems for macOS – specifically by injecting new data for macOS such as SMBIOS, ACPI tables and kexts. How this tool differs from others like Clover is that it has been designed with security and quality in mind, allowing us to use many security features found on real Macs, such as [System Integrity Protection](https://support.apple.com/en-ca/HT204899) and [FileVault](https://support.apple.com/en-ca/HT204837). A more in-depth look can be found here: [Why OpenCore over Clover and others](why-oc.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This guide specifically focuses on two main things:
 
-```markdown
-Syntax highlighted code block
+* Installing macOS on an X86-based PC
+* Teaching you what makes your Hack work
 
-# Header 1
-## Header 2
-### Header 3
+Because of this, you will be expected to read, learn and even use Google. This is not a simple one-click install setup.
 
-- Bulleted
-- List
+Please remember that OpenCore is still new and currently in beta. While quite stable, and arguably much more stable than Clover in pretty much every way, it is still being frequently updated, so chunks of configuration change quite often (i.e. new quirks replacing old ones).
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zmtt21/OpenCore-Install/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Lastly, those having issues can visit both the [r/Hackintosh subreddit](https://www.reddit.com/r/hackintosh/) and [r/Hackintosh Discord](https://discord.gg/u8V7N5C) for more help.
